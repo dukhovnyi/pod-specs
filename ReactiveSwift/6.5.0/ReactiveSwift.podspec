@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author       = "ReactiveCocoa"
 
   s.ios.deployment_target = "8.0"
-  s.source       = { :git => "https://github.com/dukhovnyi/pod-specs.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/dukhovnyi/xcf-bundle.git", :tag => "#{s.version}" }
   
   s.module_name = 'ReactiveSwift'
   s.ios.deployment_target = '12.0'
