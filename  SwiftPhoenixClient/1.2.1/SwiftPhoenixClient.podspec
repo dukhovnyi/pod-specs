@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   EOS
   s.homepage     = 'https://github.com/davidstump/SwiftPhoenixClient'
   s.license      = { :type => "MIT", :file => "LICENSE.md" }
-  s.author       = "ReactiveCocoa"
+  s.author       = { "David Stump" => "david@davidstump.net" }
   s.source       = { :http => 'https://github.com/salemove/ios-bundle/releases/download/0.27.0/SwiftPhoenixClient.xcframework.zip' }
 
   s.module_name = 'SwiftPhoenixClient'
