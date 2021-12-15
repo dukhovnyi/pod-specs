@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/davidstump/SwiftPhoenixClient'
   s.license      = { :type => "MIT", :file => "LICENSE.md" }
   s.author       = {'Dalton Cherry' => 'http://daltoniam.com', 'Austin Cherry' => 'http://austincherry.me'}
-  s.source       = { :http => 'https://github.com/salemove/ios-bundle/releases/download/0.27.0/Starscream.xcframework.zip' }
+  s.source       = { :http => 'https://github.com/dukhovnyi/pod-specs/releases/download/6.5.0/Starscream.xcframework.zip' }
 
   s.module_name = 'Starscream'
   s.ios.deployment_target = "12.0"
