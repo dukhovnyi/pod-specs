@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
 
   s.module_name = 'ReactiveSwift'
   s.ios.deployment_target = "12.0"
-  s.ios.vendored_frameworks = 'ReactiveSwift.xcframework'
+  # s.ios.vendored_frameworks = 'ReactiveSwift.xcframework'
   s.swift_version = '5.3'
 end
