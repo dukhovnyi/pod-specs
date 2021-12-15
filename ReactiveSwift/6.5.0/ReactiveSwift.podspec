@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/ReactiveCocoa/ReactiveSwift'
   s.license      = { :type => "MIT", :file => "LICENSE.md" }
   s.author       = "ReactiveCocoa"
-  s.source       = { :git => "https://github.com/dukhovnyi/pod-spec.git", :tag => s.version.to_s }
+  s.source       = { :http => 'https://github.com/salemove/ios-bundle/releases/download/0.27.0/ReactiveSwift.xcframework.zip' }
 
   s.module_name = 'ReactiveSwift'
   s.ios.deployment_target = "12.0"
