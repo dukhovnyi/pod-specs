@@ -19,4 +19,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "12.0"
   s.ios.vendored_frameworks = 'SwiftPhoenixClient.xcframework'
   s.swift_version = '5.3'
+  
+  s.dependency 'Starscream', '3.1.1'
 end
